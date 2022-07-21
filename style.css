@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.admin{
+    display: flex;
+    border: 0.5px solid white;
+    font-size: 1.4rem;
+    padding: 20px;
+    width: 300px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-top: 5%;
+    box-shadow: 5px -1px 15px 5px #888888;
+}
+.user{
+    display: flex;
+    border: 0.5px solid white;
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 300px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-top: 5%;
+    box-shadow: 5px -1px 15px 5px #888888;
+}
+.right{
+    margin-left: 2%;
+}
+.left{
+    margin-top: 8%;
+    margin-right: 8%;
+}
+.right1{
+    margin-right: 8%;
+}
+.left1{
+    margin-top: 8%;
+}
+.btn{
+    margin-top: 10%;
+}

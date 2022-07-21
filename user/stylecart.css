@@ -1,0 +1,16 @@
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    border: none;
+    left: 0;
+    bottom: 0;
+    background-color: orangered;
+    color: #ffffff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
